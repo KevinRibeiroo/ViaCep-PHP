@@ -1,0 +1,119 @@
+
+@import url('../../commom/commom.css');
+
+
+
+.container {
+ 
+ margin: 0px;
+}
+
+.faixa-1 {
+    background-image: url('../../assets/images/yellow-cabecalho.jpg');
+    background-size: cover;
+    
+
+   
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+    color: white;
+    padding-bottom: 1em;
+    margin-left: 2em;
+}
+
+.title-faixa-1 {
+    font-family: AnekMalayalam-SemiBold;
+    font-size: 5em;
+    font-style: italic;
+}
+
+.subTitle-faixa-1 {
+    font-family: AnekMalayalam-Medium;
+    
+}
+
+.faixa-2 {
+    display: flex;
+    padding-left: 2em;
+}
+
+.data-cep {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50vh;
+}
+.inputs-data-cep {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 35vh;
+}
+
+.input-data-cep input {
+    border-radius: 0.3em;
+    outline: 0;
+    height: 2.3em;
+    
+    font-family: AnekMalayalam-Regular;
+    padding-left: 0.3em;
+}
+
+.cep {
+ 
+    width: 7.5em;
+}
+
+.Rua {
+width: 30em;
+}
+
+.Bairro {
+    width: 20em;
+}
+
+.Cidade {
+    width: 21em;
+}
+
+.Estado {
+    width: 4em;
+}
+
+.IBGE {
+    width: 8em;
+}
+
+.input-data-cep {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.label {
+    display: flex;
+    align-self: center;
+    font-family: AnekMalayalam-Medium;
+    margin-right: 0.5em;
+    text-align: center;
+ 
+}
+
+.title-data-cep {
+    color: #357628;
+    font-family: AnekMalayalam-SemiBold;
+    font-size: 1.7em;
+}
+
+.forms-post {
+    display: flex;
+    flex-direction: column;
+
+    
+}
